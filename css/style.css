@@ -12,6 +12,7 @@ body {
   font-family: var(--font-family-one);
   padding: 0;
   margin: 0;
+  background-color: var(--bg-head-btn);
 }
 html, body {
   height: 100%;
@@ -27,10 +28,10 @@ html, body {
   vertical-align: middle;
 }
 .main {
-  width: 850px;
+  width: 750px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(calc(850px / 3),1fr));
+  grid-template-columns: repeat(auto-fill,minmax(calc(750px / 3),1fr));
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
