@@ -28,10 +28,10 @@ html, body {
   vertical-align: middle;
 }
 .main {
-  width: 750px;
+  width: 900px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(calc(750px / 3),1fr));
+  grid-template-columns: repeat(auto-fill,minmax(calc(900px / 3),1fr));
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
